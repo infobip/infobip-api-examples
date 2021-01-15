@@ -1,0 +1,15 @@
+{
+    "examples": {
+        "Java": [
+            {
+                "title": "Create 2FA application",
+                "description": "Create and configure new 2FA application.",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/create-2fa-application/Create2faApplication.java",
+                "fileName": "Create2faApplication.java",
+                "parseFrom": 16,
+                "parseTo": 27,
+                "exampleName": "1e7d6882-30bb-47d1-a2f0-3689b1035acc", // Should match the "name" property in the Codeanywhere "Workspace Template"
+            }
+        ]
+    }
+}

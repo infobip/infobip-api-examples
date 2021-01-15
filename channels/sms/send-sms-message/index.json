@@ -1,0 +1,15 @@
+{
+    "examples": {
+        "Java": [
+            {
+                "title": "Send basic textual message",
+                "description": "Send basic textual message",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/SendSmsMessage.java", 
+                "fileName": "SendSmsMessage.java",
+                "parseFrom": 16,
+                "parseTo": 28,
+                "exampleName": "send-sms-message-java-example", // Should match the "name" property in the Codeanywhere "Workspace Template"
+            }
+        ]
+    }
+}
