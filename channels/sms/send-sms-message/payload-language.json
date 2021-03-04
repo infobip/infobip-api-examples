@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "from": "InfoSMS",
+      "destinations": [
+        {
+          "to": "41793026727"
+        }
+      ],
+      "text": "Artık Ulusal Dil Tanımlayıcısı ile Türkçe karakterli smslerinizi rahatlıkla iletebilirsiniz.",
+      "language": {
+        "languageCode": "TR"
+      }
+    }
+  ]
+}

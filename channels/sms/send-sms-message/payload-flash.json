@@ -1,0 +1,14 @@
+{
+  "messages": [
+    {
+      "from": "InfoSMS",
+      "destinations": [
+        {
+          "to": "41793026727"
+        }
+      ],
+      "text": "Toto, I've got a feeling we're not in Kansas anymore.",
+      "flash": true
+    }
+  ]
+}

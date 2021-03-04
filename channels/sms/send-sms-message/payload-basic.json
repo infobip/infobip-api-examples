@@ -1,0 +1,13 @@
+{
+  "messages": [
+    {
+      "from": "InfoSMS",
+      "destinations": [
+        {
+          "to": "41793026727"
+        }
+      ],
+      "text": "This is a sample message"
+    }
+  ]
+}

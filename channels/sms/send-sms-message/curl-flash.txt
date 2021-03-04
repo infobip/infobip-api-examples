@@ -1,0 +1,18 @@
+curl -L -g -X POST 'https://{baseUrl}/sms/2/text/advanced' \
+-H 'Authorization: {authorization}' \
+-H 'Content-Type: application/json' \
+-H 'Accept: application/json' \
+--data-raw '{
+  "messages": [
+    {
+      "from": "InfoSMS",
+      "destinations": [
+        {
+          "to": "41793026727"
+        }
+      ],
+      "text": "Toto, I'\''ve got a feeling we'\''re not in Kansas anymore.",
+      "flash": true
+    }
+  ]
+}'

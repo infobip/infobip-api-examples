@@ -1,0 +1,18 @@
+curl -L -g -X POST 'https://{baseUrl}/sms/2/text/advanced' \
+-H 'Authorization: {authorization}' \
+-H 'Content-Type: application/json' \
+-H 'Accept: application/json' \
+--data-raw '{
+  "messages": [
+    {
+      "from": "InfoSMS",
+      "destinations": [
+        {
+          "to": "41793026727"
+        }
+      ],
+      "text": "Ως Μεγαρικό ψήφισμα είναι γνωστή η απόφαση της Εκκλησίας του δήμου των Αθηναίων (πιθανόν γύρω στο 433/2 π.Χ.) να επιβάλει αυστηρό και καθολικό εμπάργκο στα",
+      "transliteration": "GREEK"
+    }
+  ]
+}'

@@ -8,7 +8,7 @@ import okhttp3.Response;
 
 import java.io.IOException;
 
-public class SendSmsMessage {
+public class SendSmsMessageBasic {
     private static final String BASE_URL = System.getenv("IB_ENDPOINT_URL");
     private static final String ACCESS_TOKEN = String.format("IBSSO %s", System.getenv("IB_TOKEN"));
 

@@ -1,15 +1,363 @@
 {
     "examples": {
+        "Payload": [
+            {
+                "title": "Send basic textual message",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/payload-basic.json", 
+                "fileName": "payload-basic.json",
+            },
+            {
+                "title": "Send fully-featured textual message",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/payload-full.json", 
+                "fileName": "payload-full.json",
+            },
+            {
+                "title": "Send flash message",
+                "description": "Send a message that will pop-up on the user's phone",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/payload-flash.json", 
+                "fileName": "payload-flash.json",
+            },
+            {
+                "title": "SMS language",
+                "description": "Crossing SMS language barriers with the National Language Identifier for Turkish, Spanish and Portuguese",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/payload-language.json", 
+                "fileName": "payload-language.json",
+            },
+            {
+                "title": "SMS transliteration",
+                "description": "Send full-size messages in original language alphabet using transliteration conversion",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/payload-transliteration.json", 
+                "fileName": "payload-transliteration.json",
+            }
+
+        ],
+        "cURL": [
+            {
+                "title": "Send basic textual message",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/curl-basic.txt", 
+                "fileName": "curl-basic.txt",
+            },
+            {
+                "title": "Send fully-featured textual message",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/curl-full.txt", 
+                "fileName": "curl-full.txt",
+            },
+            {
+                "title": "Send flash message",
+                "description": "Send a message that will pop-up on the user's phone",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/curl-flash.txt", 
+                "fileName": "curl-flash.txt",
+            },
+            {
+                "title": "SMS language",
+                "description": "Crossing SMS language barriers with the National Language Identifier for Turkish, Spanish and Portuguese",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/curl-language.txt", 
+                "fileName": "curl-language.txt",
+            },
+            {
+                "title": "SMS transliteration",
+                "description": "Send full-size messages in original language alphabet using transliteration conversion",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/curl-transliteration.txt", 
+                "fileName": "curl-transliteration.txt",
+            }
+
+        ],
         "Java": [
             {
                 "title": "Send basic textual message",
-                "description": "Send basic textual message",
-                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/SendSmsMessage.java", 
-                "fileName": "SendSmsMessage.java",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/SendSmsMessageBasic.java", 
+                "fileName": "SendSmsMessageBasic.java",
                 "parseFrom": 16,
                 "parseTo": 28,
-                "exampleName": "send-sms-message-java-example", // Should match the "name" property in the Codeanywhere "Workspace Template"
+                "exampleName": "send-sms-message-java-basic-example", // Should match the "name" property in the Codeanywhere "Workspace Template"
+            },
+            {
+                "title": "Send fully-featured textual message",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/SendSmsMessageFull.java", 
+                "fileName": "SendSmsMessageFull.java",
+                "parseFrom": 16,
+                "parseTo": 28,
+            },
+            {
+                "title": "Send flash message",
+                "description": "Send a message that will pop-up on the user's phone",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/SendSmsMessageFlash.java", 
+                "fileName": "SendSmsMessageFlash.java",
+                "parseFrom": 16,
+                "parseTo": 28,
+            },
+            {
+                "title": "SMS language",
+                "description": "Crossing SMS language barriers with the National Language Identifier for Turkish, Spanish and Portuguese",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/SendSmsMessageLanguage.java", 
+                "fileName": "SendSmsMessageLanguage.java",
+                "parseFrom": 16,
+                "parseTo": 28,
+            },
+            {
+                "title": "SMS transliteration",
+                "description": "Send full-size messages in original language alphabet using transliteration conversion",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/SendSmsMessageTransliteration.java", 
+                "fileName": "SendSmsMessageTransliteration.java",
+                "parseFrom": 16,
+                "parseTo": 28,
             }
-        ]
+        ],
+        "Java SDK": [
+            {
+                "title": "Send basic textual message",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/SendSmsMessageLib.java", 
+                "fileName": "SendSmsMessageLib.java",
+                "parseFrom": 18,
+                "parseTo": 41,
+                "exampleName": "send-sms-message-java-lib-example",
+            }
+        ],
+        "C#": [
+            {
+                "title": "Send basic textual message",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/SendSmsMessageBasic.cs", 
+                "fileName": "SendSmsMessageBasic.cs",
+                "parseFrom": 11,
+                "parseTo": 19,
+            },
+            {
+                "title": "Send fully-featured textual message",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/SendSmsMessageFull.cs", 
+                "fileName": "SendSmsMessageFull.cs",
+                "parseFrom": 11,
+                "parseTo": 19,
+            },
+            {
+                "title": "Send flash message",
+                "description": "Send a message that will pop-up on the user's phone",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/SendSmsMessageFlash.cs", 
+                "fileName": "SendSmsMessageFlash.cs",
+                "parseFrom": 11,
+                "parseTo": 19,
+            },
+            {
+                "title": "SMS language",
+                "description": "Crossing SMS language barriers with the National Language Identifier for Turkish, Spanish and Portuguese",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/SendSmsMessageLanguage.cs", 
+                "fileName": "SendSmsMessageLanguage.cs",
+                "parseFrom": 11,
+                "parseTo": 19,
+            },
+            {
+                "title": "SMS transliteration",
+                "description": "Send full-size messages in original language alphabet using transliteration conversion",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/SendSmsMessageTransliteration.cs", 
+                "fileName": "SendSmsMessageTransliteration.cs",
+                "parseFrom": 11,
+                "parseTo": 19,
+            }
+        ],
+        "Go": [
+            {
+                "title": "Send basic textual message",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/send_sms_message_basic.go", 
+                "fileName": "send_sms_message_basic.go",
+                "parseFrom": 12,
+                "parseTo": 41,
+                // "exampleName": "send-sms-message-go-basic-example", // Should match the "name" property in the Codeanywhere "Workspace Template"
+            },
+            {
+                "title": "Send fully-featured textual message",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/send_sms_message_full.go", 
+                "fileName": "send_sms_message_full.go",
+                "parseFrom": 12,
+                "parseTo": 41,
+            },
+            {
+                "title": "Send flash message",
+                "description": "Send a message that will pop-up on the user's phone",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/send_sms_message_flash.go", 
+                "fileName": "send_sms_message_flash.go",
+                "parseFrom": 12,
+                "parseTo": 41,
+            },
+            {
+                "title": "SMS language",
+                "description": "Crossing SMS language barriers with the National Language Identifier for Turkish, Spanish and Portuguese",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/send_sms_message_language.go", 
+                "fileName": "send_sms_message_language.go",
+                "parseFrom": 12,
+                "parseTo": 41,
+            },
+            {
+                "title": "SMS transliteration",
+                "description": "Send full-size messages in original language alphabet using transliteration conversion",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/send_sms_message_transliteration.go", 
+                "fileName": "send_sms_message_transliteration.go",
+                "parseFrom": 12,
+                "parseTo": 41,
+            }
+        ],
+        "Python": [
+            {
+                "title": "Send basic textual message",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/send_sms_message_basic.py", 
+                "fileName": "send_sms_message_basic.py",
+                "parseFrom": 3,
+                "parseTo": 13,
+                // "exampleName": "send-sms-message-go-basic-example", // Should match the "name" property in the Codeanywhere "Workspace Template"
+            },
+            {
+                "title": "Send fully-featured textual message",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/send_sms_message_full.py", 
+                "fileName": "send_sms_message_full.py",
+                "parseFrom": 3,
+                "parseTo": 13,
+            },
+            {
+                "title": "Send flash message",
+                "description": "Send a message that will pop-up on the user's phone",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/send_sms_message_flash.py", 
+                "fileName": "send_sms_message_flash.py",
+                "parseFrom": 3,
+                "parseTo": 13,
+            },
+            {
+                "title": "SMS language",
+                "description": "Crossing SMS language barriers with the National Language Identifier for Turkish, Spanish and Portuguese",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/send_sms_message_language.py", 
+                "fileName": "send_sms_message_language.py",
+                "parseFrom": 3,
+                "parseTo": 13,
+            },
+            {
+                "title": "SMS transliteration",
+                "description": "Send full-size messages in original language alphabet using transliteration conversion",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/send_sms_message_transliteration.py", 
+                "fileName": "send_sms_message_transliteration.py",
+                "parseFrom": 3,
+                "parseTo": 13,
+            }
+        ],
+        "PHP": [
+            {
+                "title": "Send basic textual message",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/send_sms_message_basic.php", 
+                "fileName": "send_sms_message_basic.php",
+                // "exampleName": "send-sms-message-go-basic-example", // Should match the "name" property in the Codeanywhere "Workspace Template"
+            },
+            {
+                "title": "Send fully-featured textual message",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/send_sms_message_full.php", 
+                "fileName": "send_sms_message_full.php",
+            },
+            {
+                "title": "Send flash message",
+                "description": "Send a message that will pop-up on the user's phone",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/send_sms_message_flash.php", 
+                "fileName": "send_sms_message_flash.php",
+            },
+            {
+                "title": "SMS language",
+                "description": "Crossing SMS language barriers with the National Language Identifier for Turkish, Spanish and Portuguese",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/send_sms_message_language.php", 
+                "fileName": "send_sms_message_language.php",
+            },
+            {
+                "title": "SMS transliteration",
+                "description": "Send full-size messages in original language alphabet using transliteration conversion",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/send_sms_message_transliteration.php", 
+                "fileName": "send_sms_message_transliteration.php",
+            }
+        ],
+        "JavaScript": [
+            {
+                "title": "Send basic textual message",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/send_sms_message_basic.js", 
+                "fileName": "send_sms_message_basic.js",
+                // "exampleName": "send-sms-message-go-basic-example", // Should match the "name" property in the Codeanywhere "Workspace Template"
+            },
+            {
+                "title": "Send fully-featured textual message",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/send_sms_message_full.js", 
+                "fileName": "send_sms_message_full.js",
+            },
+            {
+                "title": "Send flash message",
+                "description": "Send a message that will pop-up on the user's phone",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/send_sms_message_flash.js", 
+                "fileName": "send_sms_message_flash.js",
+            },
+            {
+                "title": "SMS language",
+                "description": "Crossing SMS language barriers with the National Language Identifier for Turkish, Spanish and Portuguese",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/send_sms_message_language.js", 
+                "fileName": "send_sms_message_language.js",
+            },
+            {
+                "title": "SMS transliteration",
+                "description": "Send full-size messages in original language alphabet using transliteration conversion",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/send_sms_message_transliteration.js", 
+                "fileName": "send_sms_message_transliteration.js",
+            }
+        ],
+        "NodeJs": [
+            {
+                "title": "Send basic textual message",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/send_sms_message_basic_node.js", 
+                "fileName": "send_sms_message_basic_node.js",
+                // "exampleName": "send-sms-message-go-basic-example", // Should match the "name" property in the Codeanywhere "Workspace Template"
+            },
+            {
+                "title": "Send fully-featured textual message",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/send_sms_message_full_node.js", 
+                "fileName": "send_sms_message_full_node.js",
+            },
+            {
+                "title": "Send flash message",
+                "description": "Send a message that will pop-up on the user's phone",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/send_sms_message_flash_node.js", 
+                "fileName": "send_sms_message_flash_node.js",
+            },
+            {
+                "title": "SMS language",
+                "description": "Crossing SMS language barriers with the National Language Identifier for Turkish, Spanish and Portuguese",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/send_sms_message_language_node.js", 
+                "fileName": "send_sms_message_language_node.js",
+            },
+            {
+                "title": "SMS transliteration",
+                "description": "Send full-size messages in original language alphabet using transliteration conversion",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/send_sms_message_transliteration_node.js", 
+                "fileName": "send_sms_message_transliteration_node.js",
+            }
+        ],
+         "Ruby": [
+            {
+                "title": "Send basic textual message",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/send_sms_message_basic.rb", 
+                "fileName": "send_sms_message_basic.rb",
+                // "exampleName": "send-sms-message-go-basic-example", // Should match the "name" property in the Codeanywhere "Workspace Template"
+            },
+            {
+                "title": "Send fully-featured textual message",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/send_sms_message_full.rb", 
+                "fileName": "send_sms_message_full.rb",
+            },
+            {
+                "title": "Send flash message",
+                "description": "Send a message that will pop-up on the user's phone",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/send_sms_message_flash.rb", 
+                "fileName": "send_sms_message_flash.rb",
+            },
+            {
+                "title": "SMS language",
+                "description": "Crossing SMS language barriers with the National Language Identifier for Turkish, Spanish and Portuguese",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/send_sms_message_language.rb", 
+                "fileName": "send_sms_message_language.rb",
+            },
+            {
+                "title": "SMS transliteration",
+                "description": "Send full-size messages in original language alphabet using transliteration conversion",
+                "externalLink": "https://raw.githubusercontent.com/infobip/api-examples/channels/sms/send-sms-message/send_sms_message_transliteration.rb", 
+                "fileName": "send_sms_message_transliteration.rb",
+            }
+        ],
     }
 }
